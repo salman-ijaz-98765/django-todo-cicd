@@ -14,7 +14,7 @@
 
 # CMD ["python","manage.py","runserver","0.0.0.0:8000"]
 
-FROM python:3.7
+FROM python:3.9
 
 RUN apt-get update && apt-get install -y \
     python3-distutils \
